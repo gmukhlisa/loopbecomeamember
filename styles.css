@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+    background-color: #4D515D;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 890px;
+	height: 510px;
+	margin: 0 auto ;
+	margin-top: 100px;
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 3px -1px rgba(0,0,0,0.5),
+				0 5px 24px -1px rgba(0,0,0,0.4);
+}
+
+.texts {
+	width: 550px;
+	height: auto;
+}
+
+.image {
+	width: 350px;
+	height: 511px;
+
+}
+
+.texts header {
+	padding: 50px 50px 40px 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.text_become {
+	font-size: 40px;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+
+.text1 {
+	font-weight: 500;
+	font-size: 15px;
+	color: #B6B1B1
+}
+
+.social_networks {
+	display: flex;
+	flex-direction: column;
+}
+
+.social_networks_image {
+	width: 450px;
+	height: 60px;
+	text-decoration: none;
+	border: 1px solid #F0F2F5;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	transition: 1s;
+}
+
+.social_networks_image:hover {
+	border: 1px solid transparent;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+				 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 1s;
+
+}
+
+.social_networks_image:hover p {
+	color: black;
+}
+
+.social_networks_image img {
+	width: 20px;
+	height: 20px;
+	margin-left: 20px;
+}
+
+.social_networks_image p {
+	color: #919296;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 600;
+	margin: 0 auto;
+	padding-right: 40px;
+}
+
+.line {
+	border-top: 1px solid #F0F2F5;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	margin-top: 30px;
+	opacity: 0.1;
+}
+
+footer {
+	padding: 20px 0 0 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.social_networks_email {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.social_networks_email_text{
+	margin-left: 120px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #919296;
+	text-decoration: none;
+
+}
+
+.social_networks_email_text:hover {
+	color: black;
+	
+}
+.image img {
+	width: 100%;
+	height: 511px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px; 
+}
